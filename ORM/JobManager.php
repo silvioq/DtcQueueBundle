@@ -6,7 +6,7 @@ use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\EntityRepository;
 use Doctrine\ORM\QueryBuilder;
 use Dtc\QueueBundle\Doctrine\DoctrineJobManager;
-use Dtc\QueueBundle\Entity\Job;
+use Dtc\QueueBundle\Entity\BaseJob as Job;
 use Dtc\QueueBundle\Exception\UnsupportedException;
 use Dtc\QueueBundle\Model\BaseJob;
 use Dtc\QueueBundle\Util\Util;
